@@ -10,17 +10,9 @@
 
 ### Methods
 * DBSCAN(Density-Based Spatial Clustering of Applications with Noise)
-	* Categorize points in a space based on the number of adjacent points.
-	* 3 arguments are needed to use DBSCAN
-  		* Set of Points
-    			* Which refer to the location of the fishing ships
-  		* ε (Epsilon)
-    			* specifies how close points should be to each other to be considered a part of a cluster
-  		* Minimal Points (min. 10)
-    			* specifies how many neighbors a point should have to be included into a cluster
-    
+  * Categorize points in a space based on the number of adjacent points.	
 * K-NN(K-Nearest Neighbour)
-    * To determine parameter value for Epsilon
+  * To determine parameter value for Epsilon
     
 ### Library
 * maps
@@ -76,6 +68,19 @@ There are SIX types of fishing vessel:
 Data is filtered based on:
 * fishingHour(hour) >= 1 
 * gearType : “drifting_longlines”
+
+#### Data Mapping
+
+Our project uses DBSCAN to cluster fishing vessel spot which are fishing in order to find the Fishing Hotspots
+DBSCAN will require three arguments to be passed
+* Set of Points
+	* Which refer to the location of the fishing ships
+* ε (Epsilon)
+	* specifies how close points should be to each other to be considered a part of a cluster
+	* in order to find the correct epsilon value we use the knee point of k-NN Distance 
+* Minimal Points (min. 10)
+    	* specifies how many neighbors a point should have to be included into a cluster
+	* in order to find the correct Minimal Points, "Trial and Error" is used at this point which we fo
 
 ### Project Preview
 ![alt text](https://github.com/assasinz88/Fishing_Spot/blob/master/Rplot02.png)
