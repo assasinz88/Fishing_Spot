@@ -19,18 +19,6 @@
 #squid_jigger: squid jiggers, mostly large industrial pelagic operating vessels
 #other_fishing: a combination of vessels of unknown fishing gear and other, less common gears such as trollers or pole and line
 
-#=============================NOTES======================================#
-#Bikin report upload di read.me github
-#Buat title, terserah kita namanya
-#Buat apa yang kita kerjain
-#Ga perlu jelasin kode
-#Masukkin library dan install packages serta penjelasannya
-#Buat kesimpulan pake summary() dan hasil yang ada ke read.me
-
-#Pake SVM dan Cross-validation
-#Cross-validation untuk mengenerate data yang banyak dari jumlah data yang kecil
-# use k-fold cross validation
-
 #===========================WORKSPACE=======================================================================================================================#
 
 #==========================LOAD LIBRARY==================================#
