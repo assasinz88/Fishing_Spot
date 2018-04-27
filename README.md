@@ -47,7 +47,6 @@ Categorize points in a space based on the number of adjacent points.
   * https://cran.r-project.org/web/packages/dbscan/dbscan.pdf
 
 ### Body
-```
 The datas are extracted from https://globalfishingwatch.force.com/gfw/s/data-download
 The datas range from 2012-01-01 to 2012-02-26
 
@@ -55,25 +54,26 @@ Below are the details regarding the datas:
 
 Table Schema
 
-date: a string in format YYYY-MM-DD
-lat_bin: the southern edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a southern edge at 1.01 degrees north
-lon_bin: the western edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a western edge at 1.01 degrees east
-flag: the flag state of the fishing effort, in iso3 value
-geartype: see our description of geartypes
-vessel_hours: hours that vessels of this geartype and flag were present in this gridcell on this day
-fishing_hours: hours that vessels of this geartype and flag were fishing in this gridcell on this day
-mmsi_present: number of mmsi of this flag state and geartype that visited this grid cell on this day
+* date: a string in format YYYY-MM-DD
+* lat_bin: the southern edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a southern edge at 1.01 degrees north
+* lon_bin: the western edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a western edge at 1.01 degrees east
+* flag: the flag state of the fishing effort, in iso3 value
+* geartype: see our description of geartypes
+* vessel_hours: hours that vessels of this geartype and flag were present in this gridcell on this day
+* fishing_hours: hours that vessels of this geartype and flag were fishing in this gridcell on this day
+* mmsi_present: number of mmsi of this flag state and geartype that visited this grid cell on this day
+
 There are SIX types of fishing vessel:
-drifting_longlines: drifting longlines
-purse_seines: purse seines, both pelagic and demersal
-trawlers: trawlers, all types
-fixed_gear: a category that includes set longlines, set gillnets, and pots and traps
-squid_jigger: squid jiggers, mostly large industrial pelagic operating vessels
-other_fishing: a combination of vessels of unknown fishing gear and other, less common gears such as trollers or pole and line
+1. drifting_longlines: drifting longlines
+2. purse_seines: purse seines, both pelagic and demersal
+3. trawlers: trawlers, all types
+4. fixed_gear: a category that includes set longlines, set gillnets, and pots and traps
+5. squid_jigger: squid jiggers, mostly large industrial pelagic operating vessels
+6. other_fishing: a combination of vessels of unknown fishing gear and other, less common gears such as trollers or pole and line
 
 Data is filtered based on:
-fishingHour(hour) >= 1 
-```
+* fishingHour(hour) >= 1 
+* gearType : “drifting_longlines”
 
 ### Project Preview
 
