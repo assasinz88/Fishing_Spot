@@ -1,5 +1,4 @@
 # Fishing Spot
-	
   The purpose of this project is to help fisherman finding the popular spot to fish. 
   The spot will be chosen based on the amount of fishing vessels in an area, 
   the amount of time spent by that vessel, and the gear type mounted on the vessel.
@@ -11,14 +10,14 @@
 
 ### Methods
 * DBSCAN(Density-Based Spatial Clustering of Applications with Noise)
-Categorize points in a space based on the number of adjacent points.
-3 arguments are needed to use DBSCAN
-  * Set of Points
-    * Which refer to the location of the fishing ships
-  * ε (Epsilon)
-    * specifies how close points should be to each other to be considered a part of a cluster
-  * Minimal Points (min. 10)
-    * specifies how many neighbors a point should have to be included into a cluster
+	* Categorize points in a space based on the number of adjacent points.
+	* 3 arguments are needed to use DBSCAN
+  		* Set of Points
+    			* Which refer to the location of the fishing ships
+  		* ε (Epsilon)
+    			* specifies how close points should be to each other to be considered a part of a cluster
+  		* Minimal Points (min. 10)
+    			* specifies how many neighbors a point should have to be included into a cluster
     
 * K-NN(K-Nearest Neighbour)
     * To determine parameter value for Epsilon
