@@ -45,7 +45,7 @@
   * For clustering 
   * https://cran.r-project.org/web/packages/dbscan/dbscan.pdf
 
-### Body
+### Explanation
 The datas are extracted from https://globalfishingwatch.force.com/gfw/s/data-download
 The datas range from 2012-01-01 to 2012-02-26
 
@@ -73,6 +73,8 @@ There are SIX types of fishing vessel:
 Data is filtered based on:
 * fishingHour(hour) >= 1 
 * gearType : “drifting_longlines”
+
+
 
 ### Project Preview
 ![alt text](https://github.com/assasinz88/Fishing_Spot/blob/master/Rplot02.png)
