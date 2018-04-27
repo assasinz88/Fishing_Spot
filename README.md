@@ -76,4 +76,6 @@ Data is filtered based on:
 * gearType : “drifting_longlines”
 
 ### Project Preview
-
+![alt text](https://github.com/assasinz88/Fishing_Spot/blob/master/Rplot02.png)
+![alt text](https://github.com/assasinz88/Fishing_Spot/blob/master/knee.png)
+![alt text](https://github.com/assasinz88/Fishing_Spot/blob/master/worldMap.png)
