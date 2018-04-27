@@ -53,14 +53,14 @@ Below are the details regarding the datas:
 
 Table Schema
 
-* date: a string in format YYYY-MM-DD
-* lat_bin: the southern edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a southern edge at 1.01 degrees north
-* lon_bin: the western edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a western edge at 1.01 degrees east
-* flag: the flag state of the fishing effort, in iso3 value
-* geartype: see our description of geartypes
-* vessel_hours: hours that vessels of this geartype and flag were present in this gridcell on this day
-* fishing_hours: hours that vessels of this geartype and flag were fishing in this gridcell on this day
-* mmsi_present: number of mmsi of this flag state and geartype that visited this grid cell on this day
+* *date*: a string in format YYYY-MM-DD
+* *lat_bin*: the southern edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a southern edge at 1.01 degrees north
+* *lon_bin*: the western edge of the grid cell, in 100ths of a degree -- 101 is the grid cell with a western edge at 1.01 degrees east
+* *flag*: the flag state of the fishing effort, in iso3 value
+* *geartype*: see our description of geartypes
+* *vessel_hours*: hours that vessels of this geartype and flag were present in this gridcell on this day
+* *fishing_hours*: hours that vessels of this geartype and flag were fishing in this gridcell on this day
+* *mmsi_present*: number of mmsi of this flag state and geartype that visited this grid cell on this day
 
 There are SIX types of fishing vessel:
 1. drifting_longlines: drifting longlines
