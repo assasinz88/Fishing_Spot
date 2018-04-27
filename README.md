@@ -82,6 +82,23 @@ DBSCAN will require three arguments to be passed
     	* specifies how many neighbors a point should have to be included into a cluster
 	* in order to find the correct Minimal Points, "Trial and Error" is used at this point which we fo
 
+#### Code Preview
+
+##### The k-NN Distance : 
+```
+kNNdistplot(t_1, k = 3)
+```
+where t_1 is the list of all the long and lat of the points and k is number of the nearest method used
+
+##### The DBSCAN :
+```
+cluster <- dbscan(select(dataFiltered, Latitude, Longitude), eps = 1.45, minPts=10)
+```
+where eps is the value we get from the knee point of the k-NN Distance and minPts is the value we get from trial and error.
+
+
+
+
 ### Project Preview
 ![alt text](https://github.com/assasinz88/Fishing_Spot/blob/master/Rplot02.png)
 ![alt text](https://github.com/assasinz88/Fishing_Spot/blob/master/knee.png)
