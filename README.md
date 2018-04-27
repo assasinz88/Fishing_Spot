@@ -21,7 +21,7 @@ Categorize points in a space based on the number of adjacent points.
     * specifies how many neighbors a point should have to be included into a cluster
     
 * K-NN(K-Nearest Neighbour)
-    * To determine accurate and realistic value for Epsilon
+    * To determine parameter value for Epsilon
     
 ### Library
 * maps
